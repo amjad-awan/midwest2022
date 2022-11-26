@@ -1,0 +1,48 @@
+@import "../common/colors.scss";
+.bg-mask-wrapper{
+	// background-color: #83949670;
+	// position: fixed;
+	// inset: 0;
+	// z-index: -11;
+}
+.side-bar-wrapper
+{
+	position: fixed;
+	width: 300px;
+	bottom: 0;
+	left: 0;
+	top:0;
+	background-color: $default-color;
+	transition: all .3s linear;
+	z-index: 9999;
+	ul{
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		margin-top: 2rem;
+		li{
+			padding: 2px 0px;
+			border-bottom: .5px solid $light-grey;;
+			a{
+				display: flex;
+				align-items: center;
+				gap: 0 1rem;
+				padding: 5px 20px;
+				font-size: 20px;
+				color:$dark-grey;
+				transition: all .2s linear;
+				text-decoration: none;
+				cursor: pointer;
+				&:hover{
+					background-color: $half-pearl-lusta;
+					color: $green;
+					font-weight: 600;
+				}
+				.side-bar-icon
+				{
+					font-size: 40px;
+				}
+			}
+		}
+	}
+}

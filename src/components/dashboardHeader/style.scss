@@ -1,0 +1,40 @@
+@import "../common/colors.scss";
+.header-wrapper {
+  background-color: $light-grey;
+  min-height: 13rem;
+  display: flex;
+  align-items: center;
+  padding: -5rem;
+  border-radius: unset;
+  .item-wrapper {
+    border-right: 1px solid $default-color;
+  }
+  .header-box {
+    color: $default-color;
+    text-transform: capitalize;
+    z-index: 9999;
+    // border-right: 1px solid $default-color;
+    // background-color: $dark-red;
+    padding: 2rem 0rem;
+    margin: 0 auto;
+    h4 {
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    h6 {
+      font-size: 20px;
+      font-weight: 400;
+    }
+    a {
+      background-color: $dark-red;
+      padding: 6px;
+      font-size: 20px;
+      font-weight: 500;
+      display: inline-block;
+      margin-top: 1rem;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  }
+}

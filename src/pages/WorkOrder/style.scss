@@ -1,0 +1,27 @@
+@import "../../components/./common/colors.scss";
+
+.work-order-wrapper
+{
+	padding-bottom: 30px;
+	
+.text-area
+{
+	 height: 100px;
+		border: none;
+		border: 1px solid rgba(128, 128, 128, 0.596);
+		border-radius: 5px;
+		padding: 10px;
+}
+.text-area:focus{
+	outline: none !important;
+	border:2px solid #1976D2;
+}
+.texterea-label
+{
+	text-align: left !important;
+	width: 100%;
+	font-size: 18px ;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+}
